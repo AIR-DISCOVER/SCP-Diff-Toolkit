@@ -1,12 +1,8 @@
 # SCP-Diff: Photo-Realistic Semantic Image Synthesis with Spatial-Categorical Joint Prior
 
-[[Arxiv]](TODO) | [[Project Page]](https://air-discover.github.io/SCP-Diff/)
-
 This repository is an official implementation for:
 
 **SCP-Diff: Photo-Realistic Semantic Image Synthesis with Spatial-Categorical Joint Prior**
-
-> Authors:  [_Huan-ang Gao_*](https://c7w.tech/about/), _Mingju Gao_*, _Jiaju Li_, _Wenyi Li_, _Rong zhi_, [_Hao Tang_](https://ha0tang.github.io/), [_Hao Zhao_](https://sites.google.com/view/fromandto)
 
 ![Teaser](images/Teaser_cs.jpg)
 
@@ -114,7 +110,7 @@ You can custom your own dataset and write the dataloader following `datasets/*.p
 |Spatial Prior|12.83|66.77|94.29|20.86|64.46|16.03|
 |Joint Prior|10.53|67.92|94.65|25.61|71.79|12.66|
 
-We provide a download link for our finetuned ControlNets and reduced statistics in our [[huggingface]](https://huggingface.co/c7w/SCP-Diff/tree/main) page.
+We omit the download link for the pretrained models and statistics due to anonymous review. We will release the pretrained models and statistics after the review process.
 
 For inference, we need to use categorial and spatial prior. You can run `noise_prior_inference.py`:
 ```bash
@@ -149,11 +145,6 @@ CUDA_VISIBLE_DEVICES=gpu_ids \
 
 You can refer to `noise_prior.py` for more details.
 
-## Citation
-If you find this work useful for your research, please cite our paper:
-```bibtex
-TODO
-```
 
 ## Acknowledgement
 We build our codebase on [ControlNet](https://github.com/lllyasviel/ControlNet), a neural network structure to control diffusion models by adding extra conditions.
