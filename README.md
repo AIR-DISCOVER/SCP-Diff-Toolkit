@@ -1,6 +1,6 @@
 # SCP-Diff: Photo-Realistic Semantic Image Synthesis with Spatial-Categorical Joint Prior
 
-[[Arxiv]](TODO) | [[Project Page]](https://air-discover.github.io/SCP-Diff/)
+[[Arxiv]](https://arxiv.org/abs/2403.09638) | [[Project Page]](https://air-discover.github.io/SCP-Diff/)
 
 This repository is an official implementation for:
 
