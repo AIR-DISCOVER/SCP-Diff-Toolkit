@@ -152,7 +152,12 @@ You can refer to `noise_prior.py` for more details.
 ## Citation
 If you find this work useful for your research, please cite our paper:
 ```bibtex
-TODO
+@article{gao2024scp,
+  title={SCP-Diff: Photo-Realistic Semantic Image Synthesis with Spatial-Categorical Joint Prior},
+  author={Gao, Huan-ang and Gao, Mingju and Li, Jiaju and Li, Wenyi and Zhi, Rong and Tang, Hao and Zhao, Hao},
+  journal={arXiv preprint arXiv:2403.09638},
+  year={2024}
+}
 ```
 
 ## Acknowledgement
